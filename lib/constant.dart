@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 const kyelloColor = Color(0xffffc542);
 const kgreenColor = Color(0xff3ed598);
 const kredColor = Color(0xffff565e);
+const kdarkColor = Color(0xff1f2e35);
 
 // texts
 /**
@@ -24,7 +25,7 @@ const kmaintextstyle = TextStyle(
 const kmain2textstyle = TextStyle(
   fontFamily: 'SFProDisplay',
   color: Color(0xffffffff),
-  fontSize: 22,
+  fontSize: 19,
   fontWeight: FontWeight.w700,
   fontStyle: FontStyle.normal,
 );
@@ -122,7 +123,7 @@ const kfeedtitle = TextStyle(
 const kfavtitle = TextStyle(
   fontFamily: 'SFProDisplay',
   color: Color(0xffffffff),
-  fontSize: 16,
+  fontSize: 13,
   fontWeight: FontWeight.w600,
   fontStyle: FontStyle.normal,
 );
