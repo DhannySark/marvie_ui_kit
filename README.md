@@ -1,3 +1,3 @@
 # marvie_ui_kit
 
-youtube [(https://youtube.com/lexcode)]
+Lex Code - youtube [(https://www.youtube.com/channel/UC91_ly7E7cLanVGZrpSAqpw)]
