@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:marvie_ui_kit/constant.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:marvie_ui_kit/widgets/carousel_image.dart';
-import 'package:marvie_ui_kit/widgets/custom_buttons.dart';
+import 'package:marvie_ui_kit/widgets/custom_button.dart';
 
 class SliderScreen extends StatefulWidget {
   @override

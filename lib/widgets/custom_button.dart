@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
   final Widget child;
-  final Decoration boxDecoration;
   final double width;
   final double height;
+  final Decoration boxDecoration;
   final Function onPress;
-  
+
   const CustomButton({
     Key key,
-    this.child, 
-    this.boxDecoration, 
-    this.width, 
-    this.height, 
+    this.child,
+    this.width,
+    this.height,
+    this.boxDecoration,
     this.onPress
   }) : super(key: key);
 
@@ -21,9 +21,9 @@ class CustomButton extends StatelessWidget {
     return GestureDetector(
       onTap: onPress,
       child: Container(
-        alignment: Alignment.center,
         width: width,
         height: height,
+        alignment: Alignment.center,
         decoration: boxDecoration,
         child: child,
       ),
